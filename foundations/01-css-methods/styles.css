@@ -1,0 +1,28 @@
+ /* styles.css */
+
+/*
+
+#TEXT {   - - -  id selector (#box ; creates a selector for the id 'box')
+} (in the HTML ---- <div id="box">INSERT CONTENT</div>)
+
+.TEXT {   - - -  class selector (.container ; creates a selector for the class 'container')
+} (in the HTML ---- <div class="container">INSERT CONTENT</div>)
+
+div {    - - - element selector (targets the element, in this case ALL divs get applied these styles)
+} (in the HTML ---- N/A - simply defining a <div> tag will cause these styles to apply
+
+EXTERNAL - <link rel="stylesheet" href="LOCALPATH HERE"> [no close /link tag]
+INTERNAL - <style> INSERT STYLES/SELECTORS </style>
+IN-LINE - <div style="INSERT STYLE"> INSERT CONTENT </div>
+
+*/
+
+ 
+#red {
+    background: red;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
