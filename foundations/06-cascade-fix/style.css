@@ -9,15 +9,20 @@
   font-size: 14px;
 }
 
-button.cancel {
+button {
+  background: green;
+  font-weight: bold;
+  font-size: 20px;
+} 
+
+.confirm {
+  color: white;
+}
+
+.cancel {
   background-color: rgb(255, 255, 255);
   font-size: 20px;
 }
-
-button.confirm {
-  background: green;
-  font-weight: bold;
-} 
 
 div.text {
   color: green;
