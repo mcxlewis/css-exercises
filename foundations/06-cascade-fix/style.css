@@ -14,7 +14,7 @@ button.cancel {
   font-size: 20px;
 }
 
-button {
+button.confirm {
   background: green;
   font-weight: bold;
 } 
@@ -24,7 +24,7 @@ div.text {
   font-size: 22px;
 }
 
-.child {
+div.child {
   color: red;
   font-size: 14px;
 }
