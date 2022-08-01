@@ -18,6 +18,8 @@ body {
 }
 
 .modal {
+  display: flex;
+  flex-direction: column;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -81,8 +83,9 @@ button.cancel {
   align-items: flex-start;
   justify-content: space-between;
 }
-
+ 
 .bottom {
   display: inline;
+  flex-shrink: 0;
+  margin-left: 58px;
 }
-
