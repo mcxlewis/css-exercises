@@ -73,7 +73,10 @@ button.cancel {
 .header {
   font-weight: bold;
   font-size: 20px;
-  margin-right: auto;
+}
+
+.box {
+  display: inline;
 }
 
 .top {
@@ -84,7 +87,9 @@ button.cancel {
 
 .bottom {
   display: inline;
-  margin-left: 58px; /* this is a cop out to fix
+  margin-left: 58px; /* this is a cop out - fix it
   
-  also need to get text box slightly higher */
-}
+  also need to get text box slightly higher 
+  
+  try: header + text together
+  ! on its own? flex-shrink? */
