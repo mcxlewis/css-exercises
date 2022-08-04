@@ -32,30 +32,37 @@ body {
   padding: 16px;
   font-size: 24px;
 }
+
 .container {
   display: flex;
-  justify-content: space-between; 
-  }
+}
 
 .card {
-  display: flex;
-  justify-content: space-between;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex-grow: 0;
   padding: 32px;
-  width: 100%;
-  margin: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  padding-top: 0;
+  flex-wrap: wrap;
+
 }
 
 .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 16px;
+}
+
+ul {
+  list-style: none;
 }
